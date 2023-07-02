@@ -6,62 +6,125 @@ type: landing
 
 sections:
   - block: hero
+    id: heroo
     content:
       title: |
-        Wowchemy
-        Research Group
+        Deep Dream Group
       image:
         filename: welcome.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
+        Welcome to the official site of Deep Dream Group. This research group is focused on state-of-the-art machine learning models to do Natural Language Processing, Computer Vision and Time-Series related Tasks.
+  - block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
   - block: collection
     content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
+      title: Recent Publications
+      text: 
       filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
+        folders:
+          - publication
+        exclude_featured: true
     design:
-      view: card
-      columns: '1'
-  
-  - block: markdown
+      columns: '2'
+      view: citation
+  - block: people
+    id: people
     content:
-      title:
-      subtitle: ''
-      text:
+      title: Meet the Group
+      # Choose which groups/teams of users to display.
+      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      user_groups:
+          - Principal Investigators
+          - Researchers
+          - Grad Students
+          - Administration
+          - Visitors
+          - Alumni
+      sort_by: Params.first_name
+      sort_ascending: true
     design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-  
-  - block: markdown
+      show_interests: false
+      show_role: true
+      show_social: true
+  - block: contact
+    id: contact
     content:
-      title:
+      title: Contact
       subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+      # text: |-
+      #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+      # Contact (add or remove contact options as necessary)
+      email: fahimsikder01@gmail.com
+      # address:
+      #   street: Room - 2F:488, Building - E Huset, Linköping University
+      #   city: Linköping
+      #   region: 
+      #   postcode: '58183'
+      #   country: Sweden
+      #   country_code: SE
+      # coordinates:
+      #   latitude: '58.397965'
+      #   longitude: '15.575253'
+      # contact_links:
+      #   - icon: skype
+      #     icon_pack: fab
+      #     name: fahim-sikder
+      #     link: ''
+      #   - icon: twitter
+      #     icon_pack: fab
+      #     name: fahimsikder01
+      #     link: 'https://twitter.com/fahimsikder01'
+      # phone: 888 888 88 88
+      # Automatically link email and phone or display as text?
+      autolink: true
+      # Email form provider
+      # form:
+      #   provider: netlify
+      #   formspree:
+      #     id:
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: false
     design:
-      columns: '1'
+      columns: '2'
+  
+  # - block: markdown
+  #   content:
+  #     title:
+  #     subtitle: ''
+  #     text:
+  #   design:
+  #     columns: '1'
+  #     background:
+  #       image: 
+  #         filename: coders.jpg
+  #         filters:
+  #           brightness: 1
+  #         parallax: false
+  #         position: center
+  #         size: cover
+  #         text_color_light: true
+  #     spacing:
+  #       padding: ['20px', '0', '20px', '0']
+  #     css_class: fullscreen
+  
+  # - block: markdown
+  #   content:
+  #     title:
+  #     subtitle:
+  #     text: |
+  #       {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+  #   design:
+  #     columns: '1'
 ---

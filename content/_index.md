@@ -15,7 +15,7 @@ sections:
       text: |
         <br>
         
-        Welcome to the official site of Deep Dream Group. This research group is focused on state-of-the-art machine learning models to do Natural Language Processing, Computer Vision and Time-Series related Tasks.
+        Welcome to the official site of Deep Dream Group. This research group focuses on constructing state-of-the-art machine learning models for Natural Language Processing, Computer Vision, and Time-Series analysis.
   - block: collection
     id: featured
     content:

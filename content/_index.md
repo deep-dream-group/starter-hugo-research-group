@@ -10,12 +10,12 @@ sections:
     content:
       title: |
         Deep Dream Group
-      image:
-        filename: welcome.jpg
+      # image:
+      #   filename: welcome.jpg
       text: |
         <br>
         
-        Welcome to the official site of Deep Dream Group. This research group focuses on constructing state-of-the-art machine learning models for Natural Language Processing, Computer Vision, and Time-Series analysis.
+        Welcome to the official site of Deep Dream Group. This is a non-profit research group focuses on constructing state-of-the-art machine learning models for Natural Language Processing, Computer Vision, Time-Series analysis, and Trustworthy AI.
   - block: collection
     id: featured
     content:

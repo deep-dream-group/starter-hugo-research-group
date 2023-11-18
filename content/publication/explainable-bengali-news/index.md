@@ -1,23 +1,23 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Explainable Bengali Multiclass News Classification"
-authors: []
-date: 2023-07-10T11:52:17+02:00
+title: "Explainable Bengali News Classification"
+authors: ["Md Fahim Sikder", "Md Ferdous", "Shraboni Afroz", "Uzzal Podder", "Kaniz Fatema", "Mohammad Nahid Hossain", "Md Tahmid Hasan", "Mrinal Kanti Baowaly"]
+date: 2023-11-14T17:34:24+01:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2023-07-10T11:52:17+02:00
+publishDate: 2023-11-14T17:34:24+01:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["0"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
-publication_short: ""
+publication: "Accepted at 26th International Conference on Computer and Information Technology, Bangladesh, 2023"
+publication_short: "Accepted at ICCIT 2023"
 
 abstract: ""
 
@@ -26,7 +26,7 @@ summary: ""
 
 tags: []
 categories: []
-featured: True
+featured: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.

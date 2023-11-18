@@ -16,7 +16,7 @@ publishDate: 2023-07-10T11:52:52+02:00
 publication_types: ["0"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "Work in Progress"
 publication_short: ""
 
 abstract: ""
